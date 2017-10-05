@@ -62,7 +62,7 @@ public class Salon{
     }  
     
     public void salida(){       
-        
+        elementos.clear();
     }
 
     
@@ -73,11 +73,15 @@ public class Salon{
    }    
 
    public void parada(){
- 
+       for (int i=0; i< numeroEnSalon(); i++){
+          elementos.get(i).pare();
+        }
    }    
 
    public void decision(){
-
+       for (int i=0; i< numeroEnSalon(); i++){
+          elementos.get(i).decida();
+        }
    }       
     
 }
