@@ -57,17 +57,19 @@ public class Salon{
     
 
     public void entrada(){  
-        new Deportista(this,"Edward",10,80);
-        new Deportista(this,"Bella",0,0);
+        new Deportista(this,"Edward",30,80);
+        new Deportista(this,"Bella",30,0);
     }  
     
     public void salida(){       
-
+        
     }
 
     
    public void inicio(){
-
+      for (int i=0; i< numeroEnSalon(); i++){
+          elementos.get(i).inicie();
+        }
    }    
 
    public void parada(){
