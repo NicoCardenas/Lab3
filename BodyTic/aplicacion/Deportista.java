@@ -4,11 +4,10 @@ import java.awt.Color;
 
 public class Deportista extends Persona implements EnSalon{
 	
-
     private Salon salon;   
 	protected String palabras;
     protected int paso;
-
+    
 	public Deportista(Salon salon,String nombre,int posicionx, int posiciony){
 	    super(nombre,posicionx,posiciony);
 	    this.salon=salon;
