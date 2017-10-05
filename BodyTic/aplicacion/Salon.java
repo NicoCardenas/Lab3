@@ -57,8 +57,10 @@ public class Salon{
     
 
     public void entrada(){  
-        new Deportista(this,"Edward",30,80);
-        new Deportista(this,"Bella",30,0);
+        new Deportista(this,"Edward",250,80);
+        new Deportista(this,"Bella",250,0);
+        new DeportistaAvanzado(this,"neo",250,160);
+        new DeportistaAvanzado(this,"trinity",250,210);
     }  
     
     public void salida(){       
