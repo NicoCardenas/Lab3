@@ -1,5 +1,6 @@
 package aplicacion;
 import java.util.*;
+import java.awt.Color;
 
 
 /**
@@ -61,6 +62,8 @@ public class Salon{
         new Deportista(this,"Bella",250,0);
         new DeportistaAvanzado(this,"neo",250,160);
         new DeportistaAvanzado(this,"trinity",250,210);
+        new Bola(this,"Derecha",Color.RED,260,260);
+        new Bola(this,"Izquierda",Color.RED,260,260);
     }  
     
     public void salida(){       
