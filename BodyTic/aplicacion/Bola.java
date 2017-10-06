@@ -8,26 +8,23 @@ public class Bola implements EnSalon{
     private String nombre;
     private int posicionX;
     private int posicionY;
-    private Color color;
+    private Color color;    
     
-    public Bola(Salon salon, String nombre, Color color, int posicionX, int posicionY){
+    public Bola(Salon salon, String nombre, int posicionX,int posicionY){
         this.salon = salon;
         this.nombre = nombre;
-        this.color = color;
+        this.color = Color.GRAY;
         this.posicionX = posicionX;
-        this.posicionY = posicionX;
+        this.posicionY = posicionY;
+        salon.adicione(this);       
     }
     
     public void inicie(){
-    
+        color = Color.RED;
     }
     
     public void pare(){
-    
-    }
-    
-    public void decida(){
-    
+        color = Color.GRAY;
     }
     
     public String mensaje(){
@@ -38,7 +35,11 @@ public class Bola implements EnSalon{
         return color;
     }
     
-    public int getPosicionX(){return posicionX;}
+    public int getPosicionX(){
+        return posicionX;
+    }
     
-    public int getPosicionY(){return posicionY;}
+    public int getPosicionY(){
+        return posicionY;
+    }
 }

@@ -58,12 +58,13 @@ public class Salon{
     
 
     public void entrada(){  
-        new Deportista(this,"Edward",250,80);
-        new Deportista(this,"Bella",250,0);
-        new DeportistaAvanzado(this,"neo",250,160);
-        new DeportistaAvanzado(this,"trinity",250,210);
-        new Bola(this,"Derecha",Color.RED,260,260);
-        new Bola(this,"Izquierda",Color.RED,260,260);
+        new Deportista(this,"Edward",290,60);
+        new Deportista(this,"Bella",290,0);
+        new DeportistaAvanzado(this,"neo",290,120);
+        new DeportistaAvanzado(this,"trinity",290,180);
+        new Bola(this,"Derecha",300,220);
+        new Bola(this,"Izquierda",280,220);
+        new DeportistaHablador(this,"han",290,300);
     }  
     
     public void salida(){       
