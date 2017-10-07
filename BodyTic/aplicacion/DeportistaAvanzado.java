@@ -3,10 +3,11 @@ package aplicacion;
 import java.awt.Color;
 
 /**
- * Write a description of class DeportistaAvanzado here.
+ * Write a description of class DeportistaPerezoso here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Paola Cuellar
+ * @author Nicolas Cardenas
+ * @version version 1.0 (06/10/2017)
  */
 public class DeportistaAvanzado extends Deportista {
 

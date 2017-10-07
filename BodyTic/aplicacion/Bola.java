@@ -2,13 +2,20 @@ package aplicacion;
 
 import java.awt.Color;
 
+/**
+ * Write a description of class DeportistaPerezoso here.
+ * 
+ * @author Paola Cuellar
+ * @author Nicolas Cardenas
+ * @version version 1.0 (06/10/2017)
+ */
 public class Bola implements EnSalon{
     
     private Salon salon;
     private String nombre;
-    private int posicionX;
-    private int posicionY;
-    private Color color;    
+    protected int posicionX;
+    protected int posicionY;
+    protected Color color;    
     
     public Bola(Salon salon, String nombre, int posicionX,int posicionY){
         this.salon = salon;

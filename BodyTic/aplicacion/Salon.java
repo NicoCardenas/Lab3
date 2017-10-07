@@ -4,12 +4,11 @@ import java.awt.Color;
 
 
 /**
- * @author ECI 2014
- * Salon de la aplicación egiptologos
- */
-/**
- * @author ECI
- *
+ * Write a description of class DeportistaPerezoso here.
+ * 
+ * @author Paola Cuellar
+ * @author Nicolas Cardenas
+ * @version version 1.0 (06/10/2017)
  */
 public class Salon{
     public static final int MAXIMO = 500;
@@ -66,6 +65,10 @@ public class Salon{
         new Bola(this,"Izquierda",280,220);
         new DeportistaHablador(this,"han",290,300);
         new DeportistaHablador(this,"leila",290,360);
+        new DeportistaPerezoso(this,"paola",290,420);
+        new DeportistaPerezoso(this,"nicolas",290,480);
+        new Snitch(this,"Sake",230,220);
+        new Snitch(this,"Ichigo",350,220);
     }  
     
     public void salida(){       
