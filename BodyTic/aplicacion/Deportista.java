@@ -76,7 +76,7 @@ public class Deportista extends Persona implements EnSalon{
 			muevaPierna('D','B');
 			muevaBrazo('I','S'); 
 			muevaPierna('I','S');
-		}		
+		}	
 		char direccion=( (paso % 2 == 0)  ? 'E':'O');
 		if (puedeMover(direccion)){
 		    muevase(direccion);

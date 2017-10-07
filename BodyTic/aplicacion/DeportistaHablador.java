@@ -17,5 +17,14 @@ public class DeportistaHablador extends Deportista{
         super(salon, nombre, posicionx, posiciony);
         color = Color.RED;
     }
-       	
+    
+    public void inicie(){
+        super.inicie();
+        palabras = "Uff!";
+    }
+    
+    public void pare(){
+        super.pare();
+        palabras = "Uff! esto es agotador";
+    }
 }

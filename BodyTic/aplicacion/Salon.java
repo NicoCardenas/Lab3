@@ -65,6 +65,7 @@ public class Salon{
         new Bola(this,"Derecha",300,220);
         new Bola(this,"Izquierda",280,220);
         new DeportistaHablador(this,"han",290,300);
+        new DeportistaHablador(this,"leila",290,360);
     }  
     
     public void salida(){       
